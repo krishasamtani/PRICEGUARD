@@ -1,0 +1,3 @@
+"""
+PRICEGUARD Pydantic Schemas Package.
+"""

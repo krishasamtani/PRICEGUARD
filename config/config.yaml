@@ -1,0 +1,27 @@
+system:
+  app_name: "PRICEGUARD"
+  version: "1.0.0"
+  institution: "Department of Consumer Affairs - Decision Support System"
+
+commodities:
+  - "Onion"
+  - "Tur"
+
+horizons:
+  short_term: 7
+  medium_term: 14
+
+conformal:
+  confidence_level: 0.90
+  alpha: 0.10
+
+risk_thresholds:
+  z_low: 1.0
+  z_moderate: 1.5
+  z_high: 2.0
+
+simulation:
+  default_buffer_stock: 50000.0 # Metric Tonnes
+  default_elasticity: -0.18     # % price drop per 10% supply shock
+  holding_cost_per_mt: 450.0   # INR per MT per month
+  logistics_cost_per_mt: 850.0 # INR per MT transport

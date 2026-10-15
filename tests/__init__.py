@@ -1,0 +1,3 @@
+"""
+PRICEGUARD Test Suite Package.
+"""
